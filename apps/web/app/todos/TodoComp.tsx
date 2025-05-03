@@ -1,7 +1,7 @@
 'use client'
 
 import { WS_URL } from "@repo/backend-common/config"
-import { Dispatch, SetStateAction, useEffect, useRef, useState } from "react"
+import {useEffect, useRef, useState } from "react"
 import { ITodo } from "./page"
 
 export const TodoComp = ({data}: {data : any}) => {
